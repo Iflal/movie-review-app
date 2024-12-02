@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 import java.util.List;
 
 @Document(collection = "movies")
-@Data
+@Data //manage all the getter setter methods
 @AllArgsConstructor
 @NoArgsConstructor
 public class Movie {
